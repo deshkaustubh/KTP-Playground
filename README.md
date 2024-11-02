@@ -1,1 +1,25 @@
 [main](src/main/kotlin/Main.kt)
+
+# Kotlin Playground Repository
+This repository contains various Kotlin practice programs.
+
+## Special Programs
+* [Sum of Power Pattern](src/main/kotlin/EP4ext/coursePattern.kt)
+* [Fibonacci Sequence](src/main/kotlin/EP4ext/EP4Assignment1.kt)
+* [HCF and LCM](src/main/kotlin/EP4ext/EP4Assignment2.kt)
+* Special Numbers 
+  * [Perfect Numbers](src/main/kotlin/EP4ext/EP4Assignment3/EP4Assignment3part1.kt)
+  * [Harshad Numbers](src/main/kotlin/EP4ext/EP4Assignment3/EP4Assignment3part2.kt)
+  * [Automorphic Numbers](src/main/kotlin/EP4ext/EP4Assignment3/EP4Assignment3part3.kt)
+
+## Pattern Progrmas
+* [Pattern 1](src/main/kotlin/Pattern%20Programs/pattern1.kt)
+* [Pattern 2](src/main/kotlin/Pattern%20Programs/pattern2.kt)
+* [Pattern 3](src/main/kotlin/Pattern%20Programs/pattern3.kt)
+* [Pattern 4](src/main/kotlin/Pattern%20Programs/pattern4.kt)
+* [Pattern 5](src/main/kotlin/Pattern%20Programs/pattern5.kt)
+* [Pattern 6](src/main/kotlin/Pattern%20Programs/pattern6.kt)
+  * [Pattern 6 Alternate](src/main/kotlin/Pattern%20Programs/pattern6Alternate.kt)
+* [Pattern 7](src/main/kotlin/Pattern%20Programs/pattern7.kt)
+  * [Pattern 7 Alternate](src/main/kotlin/Pattern%20Programs/pattern7Alternate.kt)
+* [Pattern 8](src/main/kotlin/Pattern%20Programs/pattern8.kt)
