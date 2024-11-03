@@ -11,6 +11,9 @@ This repository contains various Kotlin practice programs.
   * [Perfect Numbers](src/main/kotlin/EP4ext/EP4Assignment3/EP4Assignment3part1.kt)
   * [Harshad Numbers](src/main/kotlin/EP4ext/EP4Assignment3/EP4Assignment3part2.kt)
   * [Automorphic Numbers](src/main/kotlin/EP4ext/EP4Assignment3/EP4Assignment3part3.kt)
+* [Kebab Case](src/main/kotlin/EP4ext/kebabCase.kt)
+* [Parse Digit](src/main/kotlin/EP4ext/parseDigit.kt)
+* [Parse Int](src/main/kotlin/EP4ext/parseInt.kt)
 
 ## Pattern Progrmas
 * [Pattern 1](src/main/kotlin/Pattern%20Programs/pattern1.kt)
