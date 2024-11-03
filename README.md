@@ -1,4 +1,3 @@
-[main](src/main/kotlin/Main.kt)
 
 # Kotlin Playground Repository
 This repository contains various Kotlin practice programs.
