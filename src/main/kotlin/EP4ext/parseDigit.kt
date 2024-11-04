@@ -1,7 +1,5 @@
 fun main(){
-    val result =parseDigit('8')
-    println(result)
-    print(isInteger(result)) // To check
+    println(parseDigit('8'))
 }
 
 
@@ -14,12 +12,5 @@ fun parseDigit(char: Char): Int{
     }
     else{
         -1
-    }
-}
-
-fun isInteger(value: Any): String {
-    return when (value) {
-        is Int -> "Yes, $value is an integer"
-        else -> "No, $value is not an integer"
     }
 }

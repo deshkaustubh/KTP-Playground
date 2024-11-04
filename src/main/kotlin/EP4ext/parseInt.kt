@@ -1,9 +1,7 @@
 // Convert a string representing a number into its corresponding integer. If the string cannot be converted, return -1.
 
 fun main(){
-    val output = parseInt("")
-    println(output)
-    print(isInteger(output)) // Called from parseDigit.kt
+    println(parseInt(""))
 }
 
 
