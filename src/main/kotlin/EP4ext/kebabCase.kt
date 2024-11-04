@@ -27,21 +27,19 @@ fun convertToKebabCase(text: String): String {
 //}
 
 fun convertToLowercaseAndTrimSpace(text: String):String {
-    var result = ""
-    for(char in text){
-        if(char in 'A'..'Z'){
-            result += (char + 32)
-        }
-        else if(char == ' ') {
-            if(result.last() != ' ') {
-                result += char
+    return buildString {
+        for (char in text) {
+            if (char in 'A'..'Z') {
+                append(char + 32)
+            } else if (char == ' ') {
+                if (isNotEmpty() && this[lastIndex] != ' ') {
+                    append(char)
+                }
+            } else {
+                append(char)
             }
         }
-        else {
-            result += char
-        }
     }
-    return result
 }
 
 fun main(){
