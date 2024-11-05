@@ -16,6 +16,7 @@ This repository contains various Kotlin practice programs.
 * [Parse Int](src/main/kotlin/EP4ext/parseInt.kt)
 * [Parse Float](src/main/kotlin/EP4ext/parseFloat.kt)
 * [Search Char in String](src/main/kotlin/EP4ext/stringCharSearch.kt)
+* [Evaluate Expression](src/main/kotlin/EP4ext/evaluateExxpression.kt)
 
 ## Pattern Progrmas
 * [Pattern 1](src/main/kotlin/Pattern%20Programs/pattern1.kt)
