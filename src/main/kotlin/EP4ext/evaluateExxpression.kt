@@ -16,7 +16,7 @@ fun evaluate(expression: String) : MutableList<Char> {
        if(expression[i] in listOf('-','+')){
            var j = i + '0'
            indiceList.add(i + '0')
-           break
+           break///////
        }
    }
     return  indiceList
