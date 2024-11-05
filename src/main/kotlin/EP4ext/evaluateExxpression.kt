@@ -6,29 +6,29 @@ fun main (){
     println(evaluateExpression("-1+2+3-5+200"))
 }
 
-fun evaluateExpression(exp: String): Int{
-    var res = 0
-    var isNeg = false
-    var num = ""
+fun evaluateExpression(expression: String): Int{
+    var result = 0
+    var isNegative = false
+    var number = ""
 
-    for(i in 0..exp.length) {
-        if(i == exp.length || exp[i] in listOf('+','-')) {
+    for(i in 0..expression.length) {
+        if(i == expression.length || expression[i] in listOf('+','-')) {
 
-            if (num.isNotEmpty()) {
-                var parsedNum = parseInt(num)
-                if (isNeg) {
-                    parsedNum *= -1
-                    isNeg = false
+            if (number.isNotEmpty()) {
+                var parsedNumber = parseInt(number)
+                if (isNegative) {
+                    parsedNumber *= -1
+                    isNegative = false
                 }
-                res += parsedNum
-                num = ""
+                result += parsedNumber
+                number = ""
             }
 
-            if (i < exp.length && exp[i] == '-') isNeg = true
+            if (i < expression.length && expression[i] == '-') isNegative = true
         }
         else {
-            num += exp[i]
+            number += expression[i]
         }
     }
-    return res
+    return result
 }
