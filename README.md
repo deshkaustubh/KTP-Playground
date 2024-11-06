@@ -18,7 +18,7 @@ This repository contains various Kotlin practice programs.
 * [Search Char in String](src/main/kotlin/EP4ext/stringCharSearch.kt)
 * [Evaluate Expression](src/main/kotlin/EP4ext/evaluateExxpression.kt)
 * [Search and Replace Char in String](src/main/kotlin/EP4ext/replace.kt)
-* [TBD](src/main/kotlin/EP4ext/evaluateExxpression.kt)
+* [Substring out of a String](src/main/kotlin/EP4ext/substring.kt)
 
 
 ## Pattern Progrmas
