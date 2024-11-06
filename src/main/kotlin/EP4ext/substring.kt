@@ -1,7 +1,7 @@
 package EP4ext
 
 fun main (){
-    println(subString("All is well", 7, 15))
+    println(subString("All is well", 7, 11))
 }
 
 fun subString(text: String, start: Int, end: Int): String {
