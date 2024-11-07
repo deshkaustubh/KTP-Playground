@@ -1,34 +1,26 @@
 package org.example.EP4ext
 
-
-// NOT CORRECT ......................................
-import parseInt
+import java.util.Scanner
 
 fun main() {
-    println(evaluateExpressionAlternate("-1+2+3-5+200"))
-    println(signIndex(expression = "-1+2+3-5+200" ))
-}
+    val input = "-1+2-3"
+    val scanner = Scanner(input.replace("+", " +").replace("-", " -"))
 
-fun evaluateExpressionAlternate(expression: String):Int{
-    var isNegative = false
-    var num = ""
-    var result = 0
+    val positiveNumbers = mutableListOf<Int>()
+    val negativeNumbers = mutableListOf<Int>()
 
-    repeat(expression.length){
-        if(it in signIndex(expression)){
-            if(expression[it] == '-') isNegative = true
-        }
-
-    }
-    return result
-}
-
-fun signIndex(expression: String): MutableList<Int> {
-    val indices = mutableListOf<Int>()
-    for ( i in 0..expression.length-1){
-        if (expression[i] in listOf('-', '+')){
-            indices.add(i)
+    while (scanner.hasNext()) { // here hasNext is for running the while loop until it has next element
+        val number = scanner.nextInt() // this takes the next input after space as Int
+        if (number > 0) {
+            positiveNumbers.add(number)
+        } else {
+            negativeNumbers.add(number)
         }
     }
-    return indices
+
+    val sumPositive = positiveNumbers.sum()
+    val sumNegative = negativeNumbers.sum()
+    val resultEvaluation = sumNegative + sumPositive
+
+    println("$resultEvaluation")
 }
