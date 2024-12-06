@@ -1,7 +1,7 @@
 package EP5
 
 fun main() {
-    val series = listOf(1, 2, 3, 4, 5)
+    val series = listOf( 0, 1, 2, 3, 4, 5)
     println(checkForAP(series))
     println(checkForGP(series))
 }
@@ -11,7 +11,7 @@ fun checkForAP(series: List<Int>): String {
 
     val d = series[1] - series[0]
 
-    for (i in 0 until series.size - 1) {
+    for (i in 2 until series.lastIndex) {
         if (series[i + 1] - series[i] != d) return "Not an AP"
     }
     return "AP with d = $d"
@@ -23,7 +23,7 @@ fun checkForGP(series: List<Int>): String {
 
     val r = series[1] / series[0]
 
-    for (i in 0 until series.size - 1) {
+    for (i in 2 until  series.lastIndex) {
         if (series[i] == 0 || series[i + 1] / series[i] != r) return "Not a GP"
     }
     return "GP with r = $r"
