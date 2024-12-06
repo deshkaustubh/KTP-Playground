@@ -20,7 +20,7 @@ This repository contains various Kotlin practice programs.
   * [Alternate Solution](src/main/kotlin/EP4ext/evaluateExpressionAlternate.kt)
 * [Search and Replace Char in String](src/main/kotlin/EP4ext/replace.kt)
 * [Substring out of a String](src/main/kotlin/EP4ext/substring.kt)
-
+* [Arithmetic and Geometric Progression Checker](src/main/kotlin/EP5/progressionChecker.kt)
 
 ## Pattern Progrmas
 * [Pattern 1](src/main/kotlin/Pattern%20Programs/pattern1.kt)
