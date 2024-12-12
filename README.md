@@ -22,6 +22,7 @@ This repository contains various Kotlin practice programs.
 * [Substring out of a String](src/main/kotlin/EP4ext/substring.kt)
 * [Arithmetic and Geometric Progression Checker](src/main/kotlin/EP5/progressionChecker.kt)
 * [Split String Implementation](src/main/kotlin/EP5/splitString.kt)
+* [Integer List Operation](src/main/kotlin/EP5/IntegerListOperations.kt)
 
 ## Pattern Progrmas
 * [Pattern 1](src/main/kotlin/Pattern%20Programs/pattern1.kt)
