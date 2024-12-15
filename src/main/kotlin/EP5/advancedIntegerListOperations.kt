@@ -120,7 +120,7 @@ fun remove(list: MutableList<Int>, element: Int, all : Boolean) {
         list.remove(element)
     }
         while (all && list.contains(element))
-    }
+}
 
 fun replace(list: MutableList<Int>, element: Int, replacement: Int) {
     val index = list.indexOf(element)
