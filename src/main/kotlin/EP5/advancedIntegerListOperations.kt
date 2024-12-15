@@ -124,7 +124,7 @@ fun remove(list: MutableList<Int>, element: Int, all : Boolean) {
 
 fun replace(list: MutableList<Int>, element: Int, replacement: Int) {
     val index = list.indexOf(element)
-    if ( index != 1) {
+    if ( index != -1) {
         list[index] = replacement
     }
 }
