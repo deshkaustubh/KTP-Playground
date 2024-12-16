@@ -7,7 +7,7 @@ import javax.xml.stream.events.EndElement
 
 // 2 Approaches inPlace and newList
 
-// New List -> Builds a new list
+// New List -> Builds a new list using buildList
 
 fun update(list: List< Int>, index : Int, value : Int) : List < Int> {
     return buildList {
@@ -84,7 +84,7 @@ fun replaceAll (list: List<Int>, element: Int, replacement: Int): List< Int> {
     }
 }
 
-// In place - changes in the existing list
+// In place - changes are made in the existing list
 
 fun update( list: MutableList< Int> , index: Int, value: Int) {
     list[index] = value
